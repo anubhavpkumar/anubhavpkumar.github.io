@@ -9,4 +9,5 @@ function ChangeTab(tabname){
     var newContentTab = document.querySelector("#" + contentid);
     newNavTab.classList.add("active");
     newContentTab.classList.add("active");
+    document.title = "Itail - " + tabname;
 }

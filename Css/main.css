@@ -41,6 +41,7 @@
     padding: 20px;
     background-color: #f96c8557;
     border-right:1px solid;
+    cursor: pointer;
 }
 .navigator-btn.active{
     border-right:none;
@@ -80,6 +81,14 @@
     height: 100px;
     width:100%;
     background-color:#f96c85;
+}
+.address{
+    width: 33.33%;
+    float: left;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px;
+    max-width: 225px;
+    margin: 10px;
 }
 
 
