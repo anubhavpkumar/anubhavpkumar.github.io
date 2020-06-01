@@ -61,17 +61,46 @@
 .content-text.active{
     display:block;
 }
-.teammember{
-    height: 363px;
-    width: 365px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 100px;
-    text-align: center;
+.teammembers{
+    margin-bottom: 20px;
+    height: 120px;
+    padding:15px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.teammember-image{
-    height:365px;
-    width:365px;
+.memberdetails-photo{
+    width: 20%;
+    height: 100%;
+    float: left;
+    max-width: 130px;
+}
+.member-name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.memberdetails-photo.anubhav{
+    background: url(https://i.ibb.co/ZWQcVyG/Anubhav.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    border-radius: 50% 50%;
+}
+.memberdetails-photo.anshu{
+    background: url(https://i.ibb.co/nkQSmJN/Anshu.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    border-radius: 50% 50%;
+}
+.memberdetails-photo.bala{
+    background: url(https://i.ibb.co/KXnv9Y3/Bala.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    border-radius: 50% 50%;
+}
+.memberdetails-data{
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding:10px;
+    padding-top:0px
 }
 .connectbutton{
     position: relative;
@@ -81,6 +110,7 @@
     height: 100px;
     width:100%;
     background-color:#f96c85;
+    text-align: center;
 }
 .address{
     width: 33.33%;
@@ -89,6 +119,11 @@
     padding: 10px;
     max-width: 225px;
     margin: 10px;
+}
+.solidcontainer{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 
